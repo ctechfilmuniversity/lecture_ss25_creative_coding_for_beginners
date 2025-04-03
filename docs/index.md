@@ -54,8 +54,7 @@ Please note that topics are subject to change during the course!
 
 | Session | Topic               | Subtopics               |
 | ------- | ------------------- | ----------------------- |
-| 1       | Introductions       | Filmuni                 |
-|         |                     | Course                  |
+| 1       | Introductions       | Course                  |
 |         |                     | Participants            |
 |         |                     | Materials               |
 |         | Setup               | p5.js Editor            |
@@ -109,19 +108,23 @@ Please note that topics are subject to change during the course!
 
 ## Time and Place
 
-* Tuesdays 11:00-13:30, Room 4301
-    * 2x 1h slots, with a break
-    * Half-half lecture-exercise
-        * E.g., you can start with the homework
+Lecture: Tuesdays 14:00-16:00, Room 5104
+* 2x 1h slots, with a break
+
+Exercise: Tuesdays 14:00-16:00, Room 5104
+* Individual code questions
+* Practical coding tasks together
+* Do the homework
 
 
 ### 2 SWS + ECTS
 
 * 1 ECTS for attending the lectures 
-* 2 ECTS for completing 70 % of the homework assignments 
+* 1 ECTS for attending the exercises 
+* 1-2 ECTS for the homework assignments 
 * 1-3 ECTS for the final project
 
-You can hand in homework until July 28th to make it count. This is a hard deadline.
+You can hand in homework until July 25th to make it count. This is a hard deadline.
 
 ### The Final Project
 
@@ -141,7 +144,7 @@ Feel free to get in touch with me before or during your work for any additional 
   
 ## Materials
 
-All materials are published on the [course website](https://ctechfilmuniversity.github.io/lecture_ss23_creative_coding_for_beginners/). Each morning the material for that day is uploaded.
+All materials are published on the [course website](https://ctechfilmuniversity.github.io/lecture_ss25_creative_coding_for_beginners/). Each morning the material for that day is uploaded.
 
 ### Coding
 
@@ -151,6 +154,6 @@ All coding is done in with the [p5.js Editor](https://editor.p5js.org/). Please 
 
 To hand in your homework assignment, you submit links to your sketches in your OwnCloud document:
 
-* [The OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/oA91WHT3HitvZlD), PW: coding
+* [The OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/Vj3IQ39a5f4llPD), PW: coding
 * Open your file, add your text, links, etc.
   

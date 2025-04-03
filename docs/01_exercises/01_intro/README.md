@@ -36,7 +36,7 @@ Recap the scripts:
 ## Task 01.02 - Setup
 
 1. Create a account for the [p5.js Editor](https://editor.p5js.org/).
-2. Find your file in the [OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/oA91WHT3HitvZlD) (PW: coding) and make sure that you can edit it.
+2. Find your file in the [OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/Vj3IQ39a5f4llPD) (PW: coding) and make sure that you can edit it.
 
 *Submission*: -
 
