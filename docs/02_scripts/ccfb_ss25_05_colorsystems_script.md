@@ -13,16 +13,16 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 # Script 05 - Color Systems
 
-![colorsystem_01](img/05/colorsystem_01.jpg)  
+![colorsystem_01](img/color/colorsystem_01.jpg)  
 [[programmingdesignsystems]](https://programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html) *Goethe's color circle with magenta, yellow, and blue primary colors.*
   
-![colorsystem_02](img/05/colorsystem_02.jpg)  
+![colorsystem_02](img/color/colorsystem_02.jpg)  
 [[programmingdesignsystems]](https://programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html) *Philipp Otto Runge's color sphere.*
   
-![colorsystem_03](img/05/colorsystem_03.jpg)  
+![colorsystem_03](img/color/colorsystem_03.jpg)  
 [[programmingdesignsystems]](https://programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html) *Michel Eugène Chevreul's color sphere.*
   
-![colorsystem_04](img/05/colorsystem_04.jpg)  
+![colorsystem_04](img/color/colorsystem_04.jpg)  
 [[programmingdesignsystems]](https://programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html) *Visualization of Albert Henry Munsell's color tree from the 1943 renotation.*
 
 
@@ -52,10 +52,10 @@ In p5 we have access to two color systems:
     * 0..255
 * 16,7 Mio. (256 * 256 * 256 = 16 777 216) different colors describable
 
-![ch03_09](img/05/ch03_09.png)
+![ch03_09](img/color/ch03_09.png)
 [medialooks](https://old.medialooks.com/mplatform/docs/CK%20Advanced.html)
 
-![ch03_10](img/05/ch03_10.png)
+![ch03_10](img/color/ch03_10.png)
 
 
 #### HSB
@@ -72,11 +72,11 @@ HSB gives usually better control over the color and offers a more aesthetic colo
 * 3,6 Mio. (360 * 101 * 101 = 3 672 360) different colors describable
 
 
-![ch03_11](img/05/ch03_11.png)
+![ch03_11](img/color/ch03_11.png)
 
-![ch03_12](img/05/ch03_12.png)
+![ch03_12](img/color/ch03_12.png)
 
-![ch03_13](img/05/ch03_13.png)
+![ch03_13](img/color/ch03_13.png)
 
 
 In p5 you can set the color system to HSB with:
