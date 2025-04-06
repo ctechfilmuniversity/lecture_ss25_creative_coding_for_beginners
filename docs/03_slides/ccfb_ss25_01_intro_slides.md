@@ -8,6 +8,10 @@ class: center, middle, inverse
 ### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
 
 
+<br />
+#### Film University Babelsberg KONRAD WOLF
+
+
 ---
 layout:false
 
@@ -17,7 +21,7 @@ layout:false
 
 ???
 
-.task[COMMENT:]  
+  
 
 * You might think that for doing cool, e.g. visual stuff with coding you need mountains of coding knowledge. That is not true. Even a with a beginners skill level you can do nice things.
 
@@ -25,34 +29,40 @@ Look for example at these different possibilities to do visual designs and even 
 
 ---
 
-.center[<img src="../02_scripts/img/01/ch01_01.jpg" alt="name" style="width:80%;"> .imgref[[[Circle Packing, Miu Ling Lam, 2010]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)]]
+.center[<img src="../02_scripts/img/intro/ch01_01.jpg" alt="name" style="width:80%;"> .imgref[[[Circle Packing, Miu Ling Lam, 2010]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)]]
 
 ???
-.task[COMMENT:]  
+  
 
 * https://editor.p5js.org/
+* Show circle
 
 ---
 
-![ch01_02](../02_scripts/img/01/ch01_02.jpg)  
-[[Circle Packing, Miu Ling Lam, 2010]](https://miulinglam.files.wordpress.com/2010/02/cp10.jpg)
+.center[<img src="../02_scripts/img/intro/ch01_02.jpg" alt="name" style="width:80%;"> .imgref[[[Circle Packing, Miu Ling Lam, 2010]](https://miulinglam.files.wordpress.com/2010/02/cp10.jpg)]]
+
 
 ---
 
-![ch01_03](../02_scripts/img/01/ch01_03.jpg)  
-[[Verschiedene Kreise (1926), Wassily Kandinsky]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)
+.center[<img src="../02_scripts/img/intro/ch01_03.jpg" alt="name" style="width:52%;">  .imgref[[[miulinglam]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)]   
+Verschiedene Kreise (1926), Wassily Kandinsky] 
+
+
 
 ---
 
-.center[<img src="../02_scripts/img/01/ch01_04.jpg" alt="namech01_04" style="width:48%;">  
-[[Komposition mit Kreisen und Linien (1926), Wassily Kandinsky]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)]
+.center[<img src="../02_scripts/img/intro/ch01_04.jpg" alt="name" style="width:34%;">  .imgref[[[miulinglam]](https://miulinglam.files.wordpress.com/2010/02/cp09.jpg)]   
+Komposition mit Kreisen und Linien (1926), Wassily Kandinsky] 
 
 ???
 
-.task[COMMENT:]  
+  
 
+https://openprocessing.org/sketch/522693
+https://openprocessing.org/sketch/1493313
+https://openprocessing.org/sketch/1633118
 
-*Do you like the above examples and if so, why?*
+* Look for simple geometric art in the next week and see what makes it appealing.
 
 ---
 layout:false
@@ -77,7 +87,7 @@ With this course, you will gain
 
 
 ???
-.task[COMMENT:]  
+  
 
 * But it is like a poetry class in Japanese
 
@@ -85,9 +95,14 @@ With this course, you will gain
 
 ## Topics
 
+
+???
+* In regard to programming itself, we will cover
+
 --
 
-In regard to programming itself, we will cover:
+.left-even[
+Programming:
 
 * Commands, variables
 * Events
@@ -95,22 +110,39 @@ In regard to programming itself, we will cover:
 * Loops
 * Arrays
 * Functions
+* Maybe: Objects and Classes
+
+*How to think?*
+]
 
 ???
 
-.task[COMMENT:]  
+  
 
 * Class topics can be divided into what you learn about programming itself and its *syntax* and what you do with your newly developed programming skill, meaning its application.
+  
+We apply these programming skills to implement:
 
 --
 
-We apply these programming skills to implement:
+.right-even[
+Application:
 
 * Drawings, colors
 * Interaction
 * Movement / Animation
 * Image, video
 * Sound
+  
+What is *creative* coding?
+]
+
+
+???
+
+Mögliches Ergebnis:
+
+https://editor.p5js.org/legie/sketches/Z-CUHtMhP
 
 
 ---
@@ -125,14 +157,14 @@ template:inverse
 
 
 <!-- 
-.center[<img src="../02_scripts/img/01/logo.png" alt="logo" style="width:100%;">] 
+.center[<img src="../02_scripts/img/intro/logo.png" alt="logo" style="width:100%;">] 
 -->
 
 
 The Team
 
-* Lena Gieseke | l.gieseke@filmuniversitaet.de  
-* ? 😥
+* Lena Gieseke | l.gieseke@filmuniversitaet.de  (CTech Prof)
+* Elena Vasilkova \| elena.vasilkova@filmuniversitaet.de (CTech Student)
 
 
 --
@@ -155,38 +187,33 @@ template: inverse
 
 ## Schedule
 
-* Tuesdays 11:00-13:30
-    * 2x 1h slots, with a break
-    * Half-half lecture-exercise
-        * E.g., you can start with the homework
---
-* Weekly homework assignments
-
---
-* Final project
+**Lecture**: Tuesdays 14:00-16:00, Room 5104
+* 2x 1h slots, with a break
 
 --
 
-### 2 SWS + ECTS
+**Exercise**: Tuesdays 14:00-16:00, Room 5104
+* Individual code questions
+* Practical coding tasks together
+* Do the homework
 
-* 1 for attending the lectures 
-* 2 for completing the homework assignments 
-* 1-3 for the final project
 
+--
+  
+
+Weekly **homework** assignments & a **final project**.
 
 
 ---
 .header[Administration]
 
-## Topics
+## ECTS
 
-Please see the [syllabus](XX) on the website.
+* 1 for attending the lectures 
+* 1 for attending the exercises 
+* 1-2 for completing the homework assignments 
+* 1-3 for the final project
 
-
-???
-.task[COMMENT:]  
-
-* Go to syllabus
 
 ---
 .header[Administration]
@@ -195,25 +222,26 @@ Please see the [syllabus](XX) on the website.
 
 --
 
-All materials are published on the [course website](XX).
+All materials are published on the [course website](https://ctechfilmuniversity.github.io/lecture_ss25_creative_coding_for_beginners/)
 
-* Each morning the material for that day is uploaded.
-
---
-
-### Coding
-
-All coding is done in with the [p5.js Editor](https://editor.p5js.org/).
-
-* Please sign up for an account.
+* Usually before class, the material for that day is uploaded
 
 --
+  
+<br />
+  
+All coding is done in with the [p5.js Editor](https://editor.p5js.org/)
 
-### Homework
+* Please sign up for an account
 
-To hand in your homework assignment, you submit links to your sketches in an OwnCloud documents.
+---
+.header[Administration]
 
-* [The OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/oA91WHT3HitvZlD), PW: coding
+## Homework
+
+To hand in your homework assignment, you submit links to your sketches in an OwnCloud documents:
+
+* [The OwnCloud Folder](https://owncloud.gwdg.de/index.php/s/Vj3IQ39a5f4llPD), PW: coding
 * Open your file, add your text, links, etc.
 
 ---
@@ -235,14 +263,14 @@ template: inverse
 
 Today, you will
 
-* know what to expect from the course,
+* know what to expect from the course (✓),
 * be able to work with the p5 online editor,
 * understand function calls, and
 * be able to draw stuff.
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Next week we will look a bit deeper into what programming is, but today we want to get our hands dirty.
 

@@ -3,10 +3,14 @@ layout: true
 class: center, middle, inverse
 ---
 
-# Creative Coding for Beginners
-### Film University Babelsberg KONRAD WOLF
+# Creative Coding For Beginners
 
-Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de 
+### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
+
+
+<br />
+#### Film University Babelsberg KONRAD WOLF
+
 
 ---
 template:inverse
@@ -20,34 +24,61 @@ layout: false
 
 
 ```js
-point(10,10);
+circle(200, 200, 100);
 ```
 
-* The above statement calls the function `point` and executes it.
+* The above statement calls the function `point` and executes it
 
 --
-* You can understand a function call as giving a certain command.
+* You can understand a function call as giving a certain command 
+
+> Dear p5, please draw a point at the location (10, 50)!
+
+--
+  
+* A program is a list of function calls
+
+---
+layout: false
+
+## Function Calls
+
 
 ```js
-Dear p5, please draw a point at the location (10, 50)!
+circle(200, 200, 100);
 ```
 
---
-* What the function exactly executes is defined inside of p5.
+
+What the function exactly executes is defined inside of p5. Somewhere inside the p5 library:
 
 --
-* A program is a list of function calls put together.
+
+```js
+function circle(posX, posY, radius) {
+
+    // Color pixels so that they form a circle
+}
+```
+
+
+???
+* https://github.com/processing/p5.js/
+* 
+
 
 
 ---
 ## Function Calls
 
 ```js
-point(10,50);
+circle(200, 200, 100);
 ```
 
 
+???
 Function calls consist of three parts
+
+--
 
 1. The `name` of the function to call
     * Usually the name describes the overall task
@@ -57,10 +88,22 @@ Function calls consist of three parts
     * In the parenthese you can give input data for the task
     * Here, we have the two arguments `(10, 50)` which indicate the location
     * **At location 10, 50**
---
+
+
+---
+## Function Calls
+
+```js
+circle(200, 200, 100);
+```
+
+
 3. The semicolon indicates the end of the command
     * Semicolons are optional in p5 and JavaScript. I recommend to place them (they are essential in many other programming languages).  
---
+
+
+---
+## Function Calls
 
 ```js
 functionname(argument1, argument2, argument3, ...);
@@ -70,8 +113,6 @@ functionname();
 
 ---
 ## Function Calls
-
-### Hello World II
 
 ```js
 print("Hello World!");
@@ -119,15 +160,16 @@ function draw() {
 
 `setup()`
 
-* What stands in the {} is executed once when the program is started.
+* Executed **once** when the program is **started**
 
---
+---
+## System Loop
 
 `draw()`
 
-* What stands in the {} is executed as soon as setup() is done.
-* The code in the {} is executed again and again until the window is closed or the execution stopped.
-* By default 60 frames are displayed in a second.
+* Starts soon as setup() is done
+* Executed **again and again** until the window is closed or the execution stopped
+* By default 60 frames are displayed in a second
 
 ???
 
@@ -179,37 +221,79 @@ function draw() {
 }
 ```
 
-* The values change the size of the canvas.
-* You can use the variables `windowWidth` and `windowHeight` for automatically detecting the current size of the display window.
+
+---
+.header[Drawing]
+
+## Create Canvas
+
+```js
+createCanvas(100, 100);
+```
+
+* The values change the size of the canvas
+* You can use the variables `windowWidth` and `windowHeight` for automatically detecting the current size of the display window
+
+
+???
+* Show https://editor.p5js.org/
 
 
 ---
 .header[Drawing | Canvas]
 
-### Pixel
-
-The canvas is a grid of small rectangles that combined make up the image. These rectangles are called pixel (picture element). To create an image you have to assign a color to each pixel.
-
-.center[<img src="../02_scripts/img/03/ch01_10.png" alt="name" style="width:40%;">]
+## Pixel
 
 
-Thankfully, p5 give us many convenient drawing functions so that we don't have to color each pixel individually.
+???
+* What is a pixel?
+
+--
+
+.left-even[
+* Canvas = is a grid of small rectangles
+* Rectangles = pixel (picture element)
+* Image = to assign a color to each pixel
+]
+
+.right-even[<img src="../02_scripts/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
 
 ---
 .header[Drawing | Canvas]
 
-### Coordinate (x,y)
+## Pixel
 
+
+.left-even[
+* p5 gives us many convenient drawing functions to color pixels
+* No individual pixel-coloring needed!
+]
+
+.right-even[<img src="../02_scripts/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
+
+
+???
+* Thankfully, p5 give us many convenient drawing functions so that we don't have to color each pixel individually.
+
+
+---
+.header[Drawing | Canvas]
+
+## Coordinate (x,y)
+
+.left-even[
 A point on the canvas is identified by a (x, y) coordinate based on the following coordinate system:
+]
 
-.center[<img src="../02_scripts/img/03/ch01_12.png" alt="name" style="width:66%;">]
+.right-even[<img src="../02_scripts/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
 
 ---
 .header[Drawing | Canvas]
 
-### Coordinate (x,y)
+## Coordinate (x,y)
 
-> Where is the following point drawn?
+.left-even[
+*Where is the following point drawn?*
 
 ```js
 function setup() {
@@ -222,13 +306,14 @@ function draw() {
     point(100, 200);
 }
 ```
+]
 
-.center[<img src="../02_scripts/img/03/ch01_12.png" alt="name" style="width:30%;">]
+.right-even[<img src="../02_scripts/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
 
 ---
 .header[Drawing]
 
-### Drawing Function Calls
+## Drawing Function Calls
 
 <script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
 function setup() {
@@ -245,7 +330,7 @@ function draw() {
 ---
 .header[Drawing]
 
-### Drawing Function Calls
+## Drawing Function Calls
 
 <script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
 function setup() {
@@ -263,11 +348,15 @@ function draw() {
 ---
 .header[Drawing]
 
-### Drawing Function Calls
+## Drawing Function Calls
 
 A typical drawing function call (aka *command*) could look for example as follows:
+  
+<br />
 
-![ch01_13](../02_scripts/img/03/ch01_13.png)
+![ch01_13](../02_scripts/img/drawing/ch01_13.png)
+
+--
 
 **The order of the parameters is fixed and must be followed!**
 
@@ -275,8 +364,9 @@ A typical drawing function call (aka *command*) could look for example as follow
 ---
 .header[Drawing]
 
-### Line
+## Line
 
+.left-even[
 ```js
 line(x1, y1, x2, y2);
 ```
@@ -285,18 +375,23 @@ Arguments:
 
 * Start `(x1, y1)`
 * End `(x2, y2)`
+]
 
-.center[<img src="../02_scripts/img/03/ch01_14.png" alt="ch01_14" style="width:70%;">]
+--
+
+.right-even[<img src="../02_scripts/img/drawing/ch01_14.png" alt="ch01_14" style="width:120%;">]
 
 ---
 .header[Drawing]
 
-### Drawing Function Calls
+## Drawing Function Calls
 
 <script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
+
 function setup() {
 
     createCanvas(300, 300);
+    background(200);
 }
 
 function draw() {
@@ -309,8 +404,9 @@ function draw() {
 ---
 .header[Drawing]
 
-### Triangle
+## Triangle
 
+.left-even[
 ```js
 triangle(x1, y1, x2, y2, x3, y3)
 ```
@@ -320,18 +416,22 @@ Arguments:
 1. corner `(x1, y1)`
 2. corner `(x2, y2)`
 3. corner `(x3, y3)`
+]
 
-.center[<img src="../02_scripts/img/03/ch01_15.png" alt="ch01_15" style="width:60%;">]
+--
+
+.right-even[<img src="../02_scripts/img/drawing/ch01_15.png" alt="ch01_15" style="width:110%;">]
 
 ---
 .header[Drawing]
 
-### Drawing Function Calls
+## Drawing Function Calls
 
 <script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
 function setup() {
-
+    
     createCanvas(300, 300);
+    background(200);
 }
 
 function draw() {
@@ -344,7 +444,8 @@ function draw() {
 ---
 .header[Drawing]
 
-### Ellipse
+## Ellipse
+
 
 ```js
 ellipse(x, y, diameterWidth, diameterHeight);
@@ -357,16 +458,27 @@ Arguments:
 3. diameterWidth
 4. diameterHeight
 
+
 ---
 .header[Drawing]
 
-### Ellipse
+## Ellipse
 
+.left-even[
 ```js
-ellipse(x, y, diameterWidth, diameterHeight);
+ellipse(x, y, diameterWidth, 
+                diameterHeight);
 ```
 
-.center[<img src="../02_scripts/img/03/ch01_17.png" alt="ch01_15" style="width:80%;">]
+Arguments:
+
+1. Center point x
+2. Center point y
+3. diameterWidth
+4. diameterHeight
+]
+
+.right-even[<img src="../02_scripts/img/drawing/ch01_17.png" alt="ch01_15" style="width:120%;">]
 
 ---
 .header[Drawing]
@@ -392,16 +504,12 @@ ellipse(x, y, diameterWidth, diameterHeight);
 
 A number of given vertices are connected with a line:
 
-.center[<img src="../02_scripts/img/03/ch01_26.png" alt="ch01_26" style="width:100%;">]
+.center[<img src="../02_scripts/img/drawing/ch01_26.png" alt="ch01_26" style="width:100%;">]
 
 ---
 .header[Drawing]
 
 ## Polygon
-
-A number of given vertices are connected with a line:
-
-.center[<img src="../02_scripts/img/03/ch01_26.png" alt="ch01_26" style="width:75%;">]
 
 * `beginShape` tells Processing that we are giving vertices for a polygon now
 * Corners are added with the `vertex` command
@@ -416,7 +524,7 @@ A number of given vertices are connected with a line:
 
 A number of given vertices are connected with a line:
 
-.center[<img src="../02_scripts/img/03/ch01_27.png" alt="ch01_27" style="width:100%;">]
+.center[<img src="../02_scripts/img/drawing/ch01_27.png" alt="ch01_27" style="width:100%;">]
 
 ---
 .header[Drawing]
@@ -471,24 +579,33 @@ By default Processing uses RGBA-color space with
 --
 * `0,0,0` is black, `255, 255, 255` white
 
---
-![ch01_19](../02_scripts/img/03/ch01_19.jpg)  
-[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)
+---
+.header[Colors]
+
+## RGB
+
+```js
+[0..255, 0..255, 0..255]
+```
+
+
+.center[<img src="../02_scripts/img/drawing/ch01_19.jpg" alt="name" style="width:80%;"> .imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
+
 
 ---
 .header[Colors | RGBA]
 
 ## Alpha
 
-Alpha describes the transparency of the, e.g., filling:
+```js
+[0..255, 0..255, 0..255 , 0..255]
+```
 
-* red, green, blue, **alpha**
-* 0 … 255
 * 0 = fully transparent
 * 255 = fully opaque
 
-![ch01_20](../02_scripts/img/03/ch01_20.png)  
-[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)
+.center[<img src="../02_scripts/img/drawing/ch01_20.png" alt="name" style="width:68%;">.imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
+
 
 
 ---
@@ -502,7 +619,11 @@ Setting the background color:
 background(r, g, b);
 ```
 
---
+---
+.header[Colors]
+
+## Color Function Calls
+
 <script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="400" data-preview-width="360" >
 function setup() {
     createCanvas(300, 300);
@@ -523,11 +644,16 @@ Changing attributes of the drawing commands:
 
 ```js
 fill(r, g, b);
+
 stroke(r, g, b);
+
 strokeWeight(w);
 ```
 
---
+---
+.header[Colors]
+
+## Color Function Calls
 
 <script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="400" data-preview-width="360" >
 function setup() {
@@ -717,10 +843,18 @@ template:inverse
 
 Comments are text, which p5 will ignore when executing your script file. 
 
-* Comments are crucially important for making code more understandable. 
-* They are furthermore used for documentation and code testing.
+--
+
+* Crucially important for making code more understandable
 
 --
+
+* Documentation and code testing
+
+
+---
+
+## Comments
 
 Inline comment:
 
@@ -774,10 +908,14 @@ template:inverse
 ## *How is one supposed to remember all this?*
 
 ---
-template:inverse
+
+.center[
+
+<br /><br /><br /><br />
 
 # Look it up in the reference: 
 ## https://p5js.org/reference/
+]
 
 ---
 .header[The Reference]
@@ -786,9 +924,38 @@ template:inverse
 
 Look it up in the reference: https://p5js.org/reference/
 
-* The reference is like a dictionary of the programming language.  
-* Learning to work with the reference is as important as learning the programming syntax.
-* I recommend to bookmark this page as you will come back to is many, many times.
+* The reference is like a dictionary of the programming language  
+* Learning to work with the reference is as important as learning the programming syntax
+* I recommend to bookmark this page as you will come back to is many, many times
+
+---
+.header[The Reference]
+
+## Getting Help 🚒
+
+ChatGPT
+
+--
+* Get help with **your** code
+
+--
+* Try the task yourself first
+
+--
+* Often quite verbose and complicated
+
+---
+template:inverse
+
+# Programming
+
+---
+.header[Programming]
+
+## Rule No. 1
+
+> Get the result you want, do not care about good code!
+
 
 
 ---
@@ -799,7 +966,8 @@ template:inverse
 
 
 
----
+???
+
 
 ## References
 

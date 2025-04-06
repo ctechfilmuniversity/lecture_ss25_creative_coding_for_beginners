@@ -3,12 +3,13 @@ layout: true
 class: center, middle, inverse
 ---
 
+# Creative Coding For Beginners
+
+### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
 
 
-# Creative Coding for Beginners
-### Film University Babelsberg KONRAD WOLF
-
-Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de 
+<br />
+#### Film University Babelsberg KONRAD WOLF
 
 
 ---
@@ -27,7 +28,8 @@ layout: false
 ## p5.js
 
 * p5 is a library for JavaScript
-    * You write JavaScript code but you have additional commands from p5.
+    * You write JavaScript code but you have additional commands from p5
+
 --
 * p5 is based on the Java framework Processing
     * Processing came first
@@ -38,11 +40,15 @@ layout: false
 
 ## Processing
 
-* 2001 developed in the research group Aesthetics and Computation of the Technology Media Labs at the Massachusetts Institute of Technology by the students Ben Fry and Casey Reas.
+--
+* 2001 developed in the research group Aesthetics and Computation of the Technology Media Labs at the MIT by the students Ben Fry and Casey Reas
+
+--
 * 2012 the Processing Foundation (a non-profit corporation) was established
 
+--
 
->Our mission is to promote software literacy within the visual arts, and visual literacy within technology-related fields — and to make these fields accessible to diverse communities. Our goal is to empower people of all interests and backgrounds to learn how to program and make creative work with code, especially those who might not otherwise have access to these tools and resources.
+> Our mission is to promote software literacy within the visual arts, and visual literacy within technology-related fields — and to make these fields accessible to diverse communities. Our goal is to empower people of all interests and backgrounds to learn how to program and make creative work with code, especially those who might not otherwise have access to these tools and resources.
 
 
 
@@ -98,10 +104,16 @@ We are going to do all coding in the [p5.js Editor](https://editor.p5js.org/).
 * This is where you’ll be writing your code. Similar to how Microsoft Word and Google Docs help you edit text, code editors like this help you write code. The p5.js editor includes some handy features like syntax highlighting (coloring the text) to make it easier to read your code, and a play button (the triangular button in the upper-left corner) to make it easier to run your code. https://happycoding.io/tutorials/p5js/welcome-to-coding
 
 --
+  
+<br />
 
 This is the official programming environment from the p5 / Processing Foundation.
 
 --
+
+--
+  
+<br />
 
 The environment enables you to write and to execute code.  
 
@@ -114,13 +126,18 @@ The environment enables you to write and to execute code.
 ---
 ## p5.js Editor
 
-Now, we will go over the following aspects in the editor together:
+You need to know about the following aspects:
 
 * The environment
 * Working with sketches
 * Errors
 * Saving
 * Sharing
+
+
+???
+
+Show: [p5.js Editor](https://editor.p5js.org/)
 
 ---
 template:inverse
@@ -131,10 +148,9 @@ template:inverse
 
 
 ---
-template:inverse
 
-# Errors Are Our...
-.center[<img src="../02_scripts/img/02/friends_01.png" alt="friends_01" style="width:100%;">]
+## Errors Are Our...
+.center[<img src="../02_scripts/img/setup/friends_01.png" alt="friends_01" style="width:80%;">]
 
 
 
