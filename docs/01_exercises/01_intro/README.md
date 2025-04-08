@@ -13,7 +13,7 @@ Elena Vasilkova \| elena.vasilkova@filmuniversitaet.de
   
 # Exercise 01 - Introduction
 
-This session is due on **Monday, May 8th**.  
+This session is due on **Tuesday, April 15th** before class.  
 
 * [Creative Coding For Beginners](#creative-coding-for-beginners)
 * [Exercise 01 - Introduction](#exercise-01---introduction)
@@ -44,9 +44,9 @@ Recap the scripts:
 
 Think about it why you want to learn creative coding. What would you like to achieve with it? What could be an interesting final project for you? 
 
-Bullet points as answer are sufficient. 
+Bullet points as answer are sufficient but please use whole sentences. 
 
-*Submission*: Your bullet points as text in your OwnCloud file.
+*Submission*: Text directly in your OwnCloud file.
 
 
 ## Task 01.04 - Drawing
