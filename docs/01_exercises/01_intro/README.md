@@ -26,11 +26,11 @@ This session is due on **Tuesday, April 15th** before class.
 
 ## Task 01.01 - Scripts
 
-Recap the scripts:
+Recap the slides:
 
-* [Introduction](../../02_scripts/ccfb_ss25_01_intro_script.md)
-* [Setup](../../02_scripts/ccfb_ss25_02_setup_script.md)
-* [Drawing](../../02_scripts/ccfb_ss25_03_drawing_script.md)
+* [Introduction](../../03_slides/ccfb_ss25_01_intro_slides.html)
+* [Setup](../../03_slides/ccfb_ss25_02_setup_slides.html)
+* [Drawing](../../03_slides/ccfb_ss25_03_drawing_slides.html)
 
 *Submission*: -
 
