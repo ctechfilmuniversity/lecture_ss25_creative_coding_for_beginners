@@ -1,9 +1,15 @@
 ---
 layout: default
+title: Exercise
+nav_exclude: true
+---
+
+
+layout: default
 title: Exercise 02
 parent: Exercises
 nav_order: 2
----
+
 
 
 # Creative Coding For Beginners
@@ -11,7 +17,7 @@ nav_order: 2
 Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  
 Elena Vasilkova \| elena.vasilkova@filmuniversitaet.de
   
-  
+
 # Exercise 02 - Program Flow & Interaction
 
 This session is due on **Tuesday, April 22nd** before class.  
