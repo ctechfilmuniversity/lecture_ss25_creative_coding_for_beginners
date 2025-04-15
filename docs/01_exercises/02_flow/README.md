@@ -19,12 +19,20 @@ This session is due on **Tuesday, April 22nd** before class.
 
 * [Creative Coding For Beginners](#creative-coding-for-beginners)
 * [Exercise 02 - Program Flow \& Interaction](#exercise-02---program-flow--interaction)
-    * [Task 02.01 - Scripts](#task-0201---scripts)
-    * [Task 02.02 - Errors](#task-0202---errors)
-    * [Task 02.03 - Interaction](#task-0203---interaction)
+    * [Task 02.01 - Inspiration](#task-0201---inspiration)
+    * [Task 02.02 - Scripts](#task-0202---scripts)
+    * [Task 02.03 - Errors](#task-0203---errors)
+    * [Task 02.04 - Interaction](#task-0204---interaction)
 
 
-## Task 02.01 - Scripts
+## Task 02.01 - Inspiration
+  
+Find a publicly available p5 example, e.g., from [OpenProcessing](https://openprocessing.org/discover/#/trending), that you like. Briefly describe why you like it.  
+  
+*Submission*: Add in your OwnCloud file a link to the sketch and your reasoning for your choice.
+  
+
+## Task 02.02 - Scripts
 
 Recap the scripts:
 
@@ -34,7 +42,7 @@ Recap the scripts:
 *Submission*: -
 
 
-## Task 02.02 - Errors
+## Task 02.03 - Errors
 
 [This code](https://editor.p5js.org/legie/sketches/2wzE7ba4V) has three errors. Can you find and fix them? Make sure to read the error messages, they might (or might not) help you find the issues.
 
@@ -74,7 +82,7 @@ function draw() // hour() returns the current hour
 *Submission*: Add in your OwnCloud file a link to your sketch and a brief explanation about what the code does.
 
 
-## Task 02.03 - Interaction
+## Task 02.04 - Interaction
 
 Create a sketch up to your liking and that uses interaction and conditionals. You could also add interaction to your homework from last week. The goal is to practice the learned functionalities.
 

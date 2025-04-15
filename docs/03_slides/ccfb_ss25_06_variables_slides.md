@@ -108,7 +108,7 @@ Well, variables enable us to do exactly that! Here a [quick preview](https://edi
 ---
 ## Variables
 
-.center[<img src="../02_scripts/img/01/ch01_07.png" alt="ch01_07" style="width:90%;">]
+.center[<img src="../02_scripts/img/intro/ch01_07.png" alt="ch01_07" style="width:90%;">]
 
 A recipe needs ingredients.  
   
@@ -160,7 +160,7 @@ Imagine variables as boxes in which you can put stuff and that
 ---
 ## Variables
 
-.center[<img src="../02_scripts/img/05/ch03_18.png" alt="ch03_18" style="width:90%;">]
+.center[<img src="../02_scripts/img/variables/ch03_18.png" alt="ch03_18" style="width:70%;">]
 
 
 ---
@@ -184,7 +184,10 @@ let myWidth;
 
 `myWidth` is not the best name. Usually you want to be as concise as possible with your variable names. However, here the name helps us to understand that this is a self-made name. We could have also used `hasi` (let's not do that thought...ever!) or almost anything really.
 
---
+---
+.header[Variables]
+
+## Initalization
 
 You should give the variable an initial value:
 
@@ -277,7 +280,11 @@ Again, for programming, upper and lower case spelling matters!
 ```js
 thisName != thisname
 ```
---
+---
+.header[Variables]
+
+## Naming Conventions
+
 
 You must not use
 
@@ -293,9 +300,16 @@ You should
 * start with a small letter, and
 * separate different words with camel case.
 
+---
+.header[Variables]
+
+## Naming Conventions
+
 ```js
 thisNameIsAwesome
 ```
+
+--
 
 **Use sensible names!**
 
@@ -519,7 +533,7 @@ function draw() {
 
 ## Nesting Scopes
 
-.center[<img src="../02_scripts/img/05/ch03_16.png" alt="ch03_16" style="width:100%;">]
+.center[<img src="../02_scripts/img/variables/ch03_16.png" alt="ch03_16" style="width:100%;">]
 
 ---
 .header[Variable Scope]
@@ -564,7 +578,7 @@ The **global scope** is one pair of `{}` around everything by default.
 
 ## Global Scope
 
-.center[<img src="../02_scripts/img/05/ch03_17.png" alt="ch03_17" style="width:105%;">]
+.center[<img src="../02_scripts/img/variables/ch03_17.png" alt="ch03_17" style="width:105%;">]
 
 
 ---
@@ -657,7 +671,7 @@ function mousePressed(){
 --
 * **If your variable behaves strangely, check its scope!**
 
-.center[<img src="../02_scripts/img/05/ch03_02.png" alt="ch03_02" style="width:40%;">]
+.center[<img src="../02_scripts/img/variables/ch03_02.png" alt="ch03_02" style="width:40%;">]
 
 ---
 template:inverse
