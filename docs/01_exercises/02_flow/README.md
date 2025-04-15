@@ -1,15 +1,9 @@
 ---
 layout: default
-title: Exercise
-nav_exclude: true
----
-
-
-layout: default
 title: Exercise 02
 parent: Exercises
 nav_order: 2
-
+---
 
 
 # Creative Coding For Beginners

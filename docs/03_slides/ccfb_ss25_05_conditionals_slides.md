@@ -531,9 +531,11 @@ key == 'c'
 --
 
 ```js
-if(key == 'c') {
-
-    //Clear the screen…
+function keyPressed() {
+    
+    if(key == 'c'){
+        //Clear the screen…
+    }
 }
 ```
   

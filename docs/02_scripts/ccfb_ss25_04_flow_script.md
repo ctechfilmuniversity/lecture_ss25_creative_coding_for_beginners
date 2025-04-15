@@ -1,14 +1,9 @@
 ---
 layout: default
-title: Script
-nav_exclude: true
----
-
-layout: default
 title: Script 04 - Program Flow
 parent: Scripts
 nav_order: 4
-
+---
 
 # Creative Coding For Beginners
   

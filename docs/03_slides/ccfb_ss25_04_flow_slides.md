@@ -144,6 +144,9 @@ The most important component for understanding program flow are `{}`:
 
 --
 * Create *one block of code*
+
+--
+  
 * Code inside of the `{}` is executed line by line
 
 ---
@@ -561,7 +564,7 @@ We define the function that is called by p5 if the mouse is pressed.
 ---
 .header[Interaction]
 
-<script type="text/p5" data-p5-version="1.11.3" data-autoplay data-height="400" data-preview-width="400" >
+<script type="text/p5" data-p5-version="1.11.3" data-autoplay data-height="500" data-preview-width="400" >
 
 function setup() {
     createCanvas(360, 360);
@@ -618,7 +621,7 @@ function mousePressed() {
 ---
 .header[Interaction]
 
-<script type="text/p5" data-p5-version="1.11.3" data-autoplay data-height="440" data-preview-width="400" >
+<script type="text/p5" data-p5-version="1.11.3" data-autoplay data-height="500" data-preview-width="400" >
 
 function setup() {
     createCanvas(360, 360);
@@ -655,21 +658,27 @@ random(-50, 50);
 --
 
 <br />
-When we call this function, it *gives* a value, the random number.  
+When we call this function, it *gives* us back a value, the random number.  
 
 ---
 ## The `random` Function
 
+One function can be used in multiple ways:
+
+--
 
 * `random(-5, 5)` returns values between -5 and 5
     * Starting at -5, and up to, but not including, 5
   
 --
   
-If only one argument is passed to the function, it will return a float between zero and the value of the argument.
-
 * `random(5)` returns values between 0 and 5 
     * Starting at zero, and up to, but not including, 5
+
+
+???
+* If only one argument is passed to the function, it will return a float between zero and the value of the argument.
+
   
 --
   
@@ -785,14 +794,12 @@ function mousePressed() {
 
 We can also use the current mouse position as input.  
 
---
-
-
 ???
 
 This is not done with a function but with two values, so called **variables** provided by p5.  
 
 --
+  
 
 With so called **variables** provided by p5:
 
