@@ -18,12 +18,13 @@ In this section you find all slides for the course.
 * [Slides 01 - Intro](ccfb_ss25_01_intro_slides.html)
 * [Slides 02 - Setup](ccfb_ss25_02_setup_slides.html)
 * [Slides 03 - Drawing](ccfb_ss25_03_drawing_slides.html)
-* [Slides 05 - Program Flow & Interaction](ccfb_ss25_04_flow_slides.html)
-* [Slides 06 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
-  
+* [Slides 04 - Program Flow & Interaction](ccfb_ss25_04_flow_slides.html)
+* [Slides 05 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
+* [Slides 06 - Variables](ccfb_ss25_06_variables_slides.html)
+
+
 <!-- 
 
-* [Slides 07 - Variables](ccfb_ss25_07_variables_slides.html)
 * [Slides 08 - Loops](ccfb_ss25_08_loops_slides.html) 
 * [Slides 09 - Programming](ccfb_ss25_09_programming_slides.html) 
 * [Slides 10 - Images](ccfb_ss25_10_images_slides.html) 

@@ -1,19 +1,13 @@
 ---
 layout: default
-title: Script
-nav_exclude: true
+title: Script 06 - Variables
+parent: Scripts
+nav_order: 6
 ---
 
+# Script 06 - Variables
 
-layout: default
-title: Script 07 - Variables
-parent: Scripts
-nav_order: 7
-
-
-# Script 07 - Variables
-
-* [Script 07 - Variables](#script-07---variables)
+* [Script 06 - Variables](#script-06---variables)
     * [Topics](#topics)
     * [Learning Objectives](#learning-objectives)
     * [Re-Using Values](#re-using-values)
@@ -237,7 +231,7 @@ myVariable     = true;      // a boolean
 Just keep in the back of your head that this behavior makes JavaScript quite special. In most other programming language a variable can only accept values of the same type. In other programming languages the above example will create an error, saying that you can't assign 'hello' to a variable that was previously defined to store numbers.
 
 
-![ch03_06](img/variables/ch03_06.png)
+![ch03_06](./img/variables/ch03_06.png)
 
 ### Data Types List
 

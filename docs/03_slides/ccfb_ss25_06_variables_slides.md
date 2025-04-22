@@ -11,6 +11,214 @@ class: center, middle, inverse
 <br />
 #### Film University Babelsberg KONRAD WOLF
 
+---
+layout:false
+
+## Today
+
+
+--
+* Re-cap Last Week
+
+--
+* Variables
+
+--
+* (Loops)
+
+--
+
+* Homework
+    * Code Understanding
+    * Your own examples
+
+
+---
+## Last Week
+
+`{ }`
+
+--
+
+* Define blocks of code
+    * Help you to understand the flow of a program
+    * Indent code inside of the blocks!
+
+---
+## Last Week
+
+Working with functions consists of two parts: 
+
+--
+
+1. The definition of that function (within `{}`)
+2. Calling that function to execute it
+
+--
+
+One of the steps might be done by p5.
+
+
+---
+## Last Week
+
+There are two color system: RGB (default) and HSB
+  
+
+* Set HSB by calling `colorMode(HSB);`
+* You can set custom ranges for each channel  
+    `colorMode(HSB, 1000, 100, 100);`
+
+
+
+---
+## Last Week
+
+We can structure the program flow with user input
+
+
+* `mousePressed()`
+* `mouseX`, `mouseY`
+* `keyPressed()`
+* `key`
+
+
+---
+## Last Week
+  
+We can structure the program flow with with a conditional statement
+  
+* `if(condition is true){  }`
+
+--
+* To create conditions, we use operators
+
+--
+    * Comparison
+        * `>`, `>=`, `<`, `<=`, `==`, `!=`
+
+
+
+---
+.header[Conditionals]
+
+##  The if-else Statement
+
+--
+
+
+```js
+if(condition 1 is true){
+
+    // do something
+
+} else if(condition 2 is true){
+
+    // do something else
+
+} else {
+
+    // do a third thing for all other cases
+}
+```
+
+???
+  
+
+* https://editor.p5js.org/legie/sketches/HDWQbzDU8
+
+
+---
+.header[Conditionals | The `else` Statement]
+
+You can have as many else if statements as you want…
+
+```js
+if(value < 10) {
+    // For 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+} else if(value < 15) {
+    // For 10, 11, 12, 13, 14
+
+} else if(value < 18) {
+    // For 15, 16, 17
+
+} else if(value < 20) {
+    // For 18, 19
+
+} else {
+    // For all values >= 20
+}
+```
+
+---
+.header[Conditionals | The else-if ladder]
+
+
+.center[<img src="../02_scripts/img/flow/ch02_03.png" alt="ch02_03" style="width:74%;">]
+.imgref[[[quora]]([https://www.quora.com/Can-if-else-be-considered-as-a-loop])]
+
+
+
+---
+.header[Conditionals]
+
+##  The if-else Statement
+
+
+```
+    if(key == 'c'){
+        
+        background(100);
+
+    } else {
+
+        background(random(100), 100, 100);
+    }
+```
+
+
+???
+
+For a detailed and slow tutorial, see The Coding Train's [3.1: Introduction to Conditional Statements - p5.js Tutorial](https://www.youtube.com/watch?v=1Osb_iGDdjk&t=434s).
+
+
+
+---
+
+## Conditionals
+
+* Understand and explain [this code](https://editor.p5js.org/legie/sketches/0lByVe-mH).
+
+
+???
+  
+
+* https://editor.p5js.org/legie/sketches/0lByVe-mH
+
+
+---
+.header[Conditionals]
+
+
+## One More Operator
+
+With `&` you can chain conditions together:
+
+```js
+// Pseudo Code
+
+if(condition1 is true & condition2 is true & condition2 is true) {
+
+}
+```
+
+Only if all conditions are true the if-code is entered!
+
+
+
+
+
 
 
 ---
@@ -69,7 +277,7 @@ function mousePressed() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * When [drawing colorful lines](https://editor.p5js.org/legie/sketches/vcKXqzsgQ), we decided to use the width of our window as size for the value range for our color spectrum and so we had to paste the same value multiple times at different locations:
 * This is tedious. If we want to test out different values for the window size we have to copy and paste the new value to all these places. Most likely we will forget one of the spots and create non-consistent behavior.
@@ -87,7 +295,7 @@ function mousePressed() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 
 It would be great if we could define the value only once and then re-use or reference that value in the different places.
@@ -113,7 +321,7 @@ Well, variables enable us to do exactly that! Here a [quick preview](https://edi
 A recipe needs ingredients.  
   
 ???
-.task[COMMENT:]  
+  
 
 * Think back to the idea of understanding coding like creating a cooking recipe. In practice, a recipe only makes sense with the actual *ingredients* to cook with. 
 
@@ -122,7 +330,7 @@ A recipe needs ingredients.
 In programming data is our ingredient and we access it with variables.
 
 ???
-.task[COMMENT:]  
+  
 
 * Similarly, programming really only enfolds its full potential when working with data. You can think of the various forms of data such as a mouse click, text or numbers, as being the ingredients for programming.
 
@@ -147,7 +355,7 @@ Data can come in various forms, such as
 
 
 ???
-.task[COMMENT:]  
+  
 
 * In programming, data is saved in *variables*. 
 
@@ -178,7 +386,7 @@ let myWidth;
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Variables must be specifically created with the `let` keyword and any name of your choosing.
 
@@ -208,7 +416,7 @@ With the single `=` you assign a value to a variable.
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Do not confuse this with the comparison operator `==`; in programming `=` (value assignment) and `==` (is equal test) are completely different things!
 * If you do not initialize the variable when you create it, its value is *undefined* until you assign a value to it. Using a variable with a undefined value can lead to unexpected behavior and errors. Hence, get in the habit to always assign a value to a variable, when creating it.
@@ -227,7 +435,7 @@ print(myDiameter);
 
 
 ???
-.task[COMMENT:]  
+  
 
 * After you created a variable and give it a value, you can work with the variable:
   
@@ -241,7 +449,7 @@ myDiameter = myDiameter + 10;
 
 
 ???
-.task[COMMENT:]  
+  
 
 As an [example](https://editor.p5js.org/legie/sketches/KR1qoukBx), we could increase the diameter with each mouse-click:
 
@@ -320,7 +528,7 @@ thisNameIsAwesome
 
 
 ???
-.task[COMMENT:]  
+  
 
 * The computer keeps track of the *type of data* that is inside of the box. For different data types, memory is allocated differently (you don't need to worry about memory allocation though).
 
@@ -339,7 +547,7 @@ print(myVariable);
 ```
 
 ???
-.task[COMMENT:]  
+  
 
 
 Just keep in the back of your head that this behavior makes JavaScript quite special. In most other programming language a variable can only accept values of the same type. In other programming languages the above example will create an error, saying that you can't assign 'hello' to a variable that was previously defined to store numbers.
@@ -358,7 +566,7 @@ Just keep in the back of your head that this behavior makes JavaScript quite spe
 | `undefined` | a data type whose variable is not initialized      | `let a;`                         |
 
 ???
-.task[COMMENT:]  
+  
 
 * There are in total nine data types. We only care about `String` (textual data), `Number` (well... numbers 🙃), `Boolean` (true or false). and `undefined` (no value assigned).
 
@@ -412,7 +620,7 @@ template:inverse
 
 
 ???
-.task[COMMENT:]  
+  
 
 * 🚨 Attention: the following section is very important to understand... 🚨
 * 🤓 ...but also a bit tricky!! 🤓 
@@ -456,18 +664,20 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
-
-* Here it does not matter to what kind of code construct the curly brackets belong to. 
   
---
+
+
+  
+---
+## Variable Scope
+
+It does not matter to what kind of code construct the curly brackets belong to:
 
 ```js
 if (name == 'ernie') {
 
     // SCOPE 1
-} 
-else {
+} else {
 
     // SCOPE 2
 }
@@ -494,7 +704,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * What will happen in the following [example](https://editor.p5js.org/legie/sketches/yG1r_Epfe)?
 * myVariable is out of scope here, meaning we can not access it
@@ -507,6 +717,10 @@ function draw() {
 --
 
 Variables are visible from the [inside of the nested brackets](https://editor.p5js.org/legie/sketches/BGp6te8CY):
+
+---
+.header[Variable Scope | Nesting Scopes]
+
 
 ```js
 function setup() {
@@ -558,7 +772,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Why does [the following](https://editor.p5js.org/legie/sketches/wRFErPBr5) throw an error?
 * SCOPE 2 is nested in SCOPE 1 and can access SCOPE 1's variables
@@ -574,17 +788,16 @@ function draw() {
 The **global scope** is one pair of `{}` around everything by default.
 
 ---
-.header[Variable Scope]
+.header[Variable Scope | Global Scope]
 
-## Global Scope
 
-.center[<img src="../02_scripts/img/variables/ch03_17.png" alt="ch03_17" style="width:105%;">]
+
+.center[<img src="../02_scripts/img/variables/ch03_17.png" alt="ch03_17" style="width:95%;">]
 
 
 ---
-.header[Variable Scope]
+.header[Variable Scope | Global Scope]
 
-## Global Scope
 
 ```js
 //SCOPE 0 - this variable visible everywhere!
@@ -617,12 +830,14 @@ Global scope comes with many problems,
 e.g., it is difficult to keep track where the variable is changed in the code. 
 
 --
+  
+<br />
 
 **However, for beginners it is perfectly fine to use global variables.**
 
 
 ???
-.task[COMMENT:]  
+  
 
 * In the upcoming weeks, we will most likely very often use variables that we define before any other code. Those variable we can use anywhere in the code and we do not need to worry about their scope, as they are in global scope.
 
@@ -671,7 +886,7 @@ function mousePressed(){
 --
 * **If your variable behaves strangely, check its scope!**
 
-.center[<img src="../02_scripts/img/variables/ch03_02.png" alt="ch03_02" style="width:40%;">]
+.center[<img src="../02_scripts/img/variables/ch03_02.png" alt="ch03_02" style="width:20%;">]
 
 ---
 template:inverse
@@ -689,14 +904,14 @@ template:inverse
 
 
 ???
-.task[COMMENT:]  
+  
 
 Idea: in each frame (meaning every time draw is called) count up a variable and use that variable for the hue channel. Hence, the color should change smoothly by increasing its value one by one.
 
 ---
 ## Change the Color of the Circle Automatically
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="440" data-preview-width="300" >
 function setup() {
     createCanvas(250, 250); 
 
@@ -715,9 +930,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
-
-* Do it together
+https://editor.p5js.org/legie/sketches/uaRTbFi0H
 
 ```js
 // https://editor.p5js.org/legie/sketches/uaRTbFi0H
@@ -761,16 +974,20 @@ function draw() {
 
 ## Why Does the Color Stop Changing?
 
+--
+
 We continuously increase the value for the `hue` variable and at some point its value is above 360.
 
 ???
-.task[COMMENT:]  
+  
 
 * We continuously increase the value for the `hue` variable and at some point its value is above 360 (the default value range for the H channel). Hence, every value above 360 will just interpreted as 360 by p5. So when, e.g. `hue` is 500, the color looks like 360.
 
---
+---
+.header[Change the Color of the Circle Automatically]
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="600" data-preview-width="300" >
 let hue = 0;
 
 function setup() {
@@ -799,7 +1016,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 In order to change this "overflow", we need to check for the possible value range of a color and make sure that hue only gets values 0..360.
 
@@ -820,7 +1037,7 @@ Similarly, we could animate the position of the circle.
 
 
 ???
-.task[COMMENT:]  
+  
 
 * What are the steps?
 
@@ -863,7 +1080,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * [https://editor.p5js.org/legie/sketches/OljoriSe7](https://editor.p5js.org/legie/sketches/OljoriSe7)
 
@@ -882,7 +1099,7 @@ Also, we are going to use the `or` operator with `|`, which connects two conditi
 let hue = 0;
 let positionX = 0;
 let positionY = 0;
-let speed = 2;
+let step = 2;
 
 function setup() {
     createCanvas(windowWidth, windowHeight); 
@@ -899,8 +1116,8 @@ function draw() {
     
     // POSITION
     // Increasing the position values
-    positionX = positionX + speed;
-    positionY = positionY + speed;
+    positionX = positionX + step;
+    positionY = positionY + step;
   
     // If the x position runs out of the canvas, 
     // reset the position to 0
@@ -925,9 +1142,10 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
-* [https://editor.p5js.org/legie/sketches/Rri_V0jph](https://editor.p5js.org/legie/sketches/Rri_V0jph)
+* https://editor.p5js.org/legie/sketches/DokILq7MJd
+* 
 
 
 In the above example, we reset the position to 0, creating a jump of the circle to the other side of the canvas again. How could we create the effect that the circle bounces of the sides of the canvas?
@@ -1006,9 +1224,8 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
-
-* [https://editor.p5js.org/legie/sketches/D1R-Owv47](https://editor.p5js.org/legie/sketches/D1R-Owv47)
+  
+* https://editor.p5js.org/legie/sketches/pA5Ddli51
 * Chose random start values
 
 Further explanation:
