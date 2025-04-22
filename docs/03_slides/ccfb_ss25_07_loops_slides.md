@@ -152,7 +152,7 @@ For repeating the same code multiple times, there are two types of loops,
 ```js
 // Pseudo code
 
-while (condition) {
+while (condition is true) {
 
     statement;
 }
@@ -357,7 +357,19 @@ for(INITIALIZATION; CONDITION; STEP) {
 
 * The `for`-loop also executes a block of code the given number of times. It is used more often than the while loop because it gives you more control.
 
---
+---
+
+
+## Loop Logic
+
+
+```js
+// Pseudo Code
+
+for(INITIALIZATION; CONDITION; STEP) {
+    // code
+}
+```
 
 ```js
 for(let i = 0; i < numberOfTimes; i++) {

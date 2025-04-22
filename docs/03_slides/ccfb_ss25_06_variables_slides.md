@@ -55,6 +55,19 @@ Working with functions consists of two parts:
 2. Calling that function to execute it
 
 --
+  
+```js
+function functionname() {
+    // Code that is executed when we call the function
+}
+```  
+```js
+
+functionname(); // Calling the function
+```
+
+
+--
 
 One of the steps might be done by p5.
 
@@ -62,7 +75,9 @@ One of the steps might be done by p5.
 ---
 ## Last Week
 
-There are two color system: RGB (default) and HSB
+There are two color system: RGB (default) and HSB:
+
+--
   
 
 * Set HSB by calling `colorMode(HSB);`
@@ -74,7 +89,9 @@ There are two color system: RGB (default) and HSB
 ---
 ## Last Week
 
-We can structure the program flow with user input
+We can structure the program flow with user input:
+
+--
 
 
 * `mousePressed()`
@@ -166,21 +183,28 @@ if(value < 10) {
 ##  The if-else Statement
 
 
+```js
+if(key == 'c'){
+    
+    background(100);
+
+} else {
+
+    background(random(100), 100, 100);
+}
 ```
-    if(key == 'c'){
-        
-        background(100);
 
-    } else {
+--
 
-        background(random(100), 100, 100);
-    }
+```js
+background(random(100), 100, 100);
+
+if(key == 'c'){
+
+    background(100);
+}
 ```
 
-
-???
-
-For a detailed and slow tutorial, see The Coding Train's [3.1: Introduction to Conditional Statements - p5.js Tutorial](https://www.youtube.com/watch?v=1Osb_iGDdjk&t=434s).
 
 
 
