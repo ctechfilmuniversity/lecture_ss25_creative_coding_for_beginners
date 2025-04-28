@@ -21,9 +21,9 @@ In this section you find all slides for the course.
 * [Slides 04 - Program Flow & Interaction](ccfb_ss25_04_flow_slides.html)
 * [Slides 05 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
 * [Slides 06 - Variables](ccfb_ss25_06_variables_slides.html)
-* [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
 
 <!-- 
+* [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
 
 
 * [Slides 09 - Programming](ccfb_ss25_09_programming_slides.html) 
