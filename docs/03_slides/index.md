@@ -38,11 +38,15 @@ Also see the script for each topic.
 
 ## Code Examples
 
+<!-- 
+  
 Week 4
 
 * [10 Print Pattern](https://editor.p5js.org/legie/sketches/nrfQTzxMI)
 * [Interactive Circles on a Grid](https://editor.p5js.org/legie/sketches/HkHM-OSag)
-* [Loop Inside Draw](https://editor.p5js.org/legie/sketches/P9nGLtSJq) ([as circle](https://editor.p5js.org/legie/sketches/q53DdC1ul))
+* [Loop Inside Draw](https://editor.p5js.org/legie/sketches/P9nGLtSJq) ([as circle](https://editor.p5js.org/legie/sketches/q53DdC1ul)) 
+  
+-->
 
 
 
