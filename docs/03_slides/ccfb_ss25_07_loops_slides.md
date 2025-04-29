@@ -12,6 +12,179 @@ class: center, middle, inverse
 #### Film University Babelsberg KONRAD WOLF
 
 
+---
+layout:false
+
+## Today
+
+--
+
+.left-even[
+* Re-Cap Variables
+
+]
+
+
+
+---
+
+
+## Today
+
+.left-even[
+* Re-Cap Variables
+
+* Loops
+    * while Loops
+    * for-Loops
+    * 2D Loops
+    * Grid-based Pattern
+
+]
+
+
+
+
+
+---
+
+
+## Today
+
+.left-even[
+* Re-Cap Variables
+
+* Loops
+    * while Loops
+    * for-Loops
+    * 2D Loops
+    * Grid-based Pattern
+
+]
+
+.right-even[
+
+* Homework
+    * Code understanding
+    * Your adjustments
+    * Animation examples
+
+]
+
+
+
+
+---
+
+## Today
+
+.left-even[
+* Re-Cap Variables
+
+* Loops
+    * while Loops
+    * for-Loops
+    * 2D Loops
+    * Grid-based Pattern
+
+]
+
+.right-even[
+
+* Homework
+    * Code understanding
+    * Your adjustments
+    * Animation examples
+
+* Practicing examples
+
+]
+
+
+
+???
+
+https://editor.p5js.org/legie/full/fYvij_ACr (TODO: clean and comment code)
+
+
+---
+template:inverse
+
+# Variables
+
+---
+## Variables
+
+
+???
+.task[COMMENT:]  
+
+* What is a variable?
+
+--
+
+With a variable you can store and re-use data.
+
+--
+
+
+```js
+//Pseudo code
+
+let variablename = value;
+```
+
+---
+.header[Variables]
+
+## Scope
+
+
+???
+.task[COMMENT:]  
+
+* What is the scope of variable?
+
+--
+
+Scope refers to the area in the code where you can access the variable, meaning *where it exists*.  
+
+The scope is defined by the surrounding `{}`, where you created the variable:
+
+```js
+{
+    // Variable only exists inside the brackets
+    let myDiameter = 10;
+}
+```
+
+
+---
+.header[Variables]
+
+## Nesting Scopes
+
+---
+
+.center[<img src="../02_scripts/img/variables/ch03_17.png" alt="ch03_17" style="width:95%;">]
+
+---
+.header[Variables]
+
+## Global Scope
+
+--
+
+Good for
+
+* having your variable visible everywhere in your code 
+* saving values between different function calls, e.g., different `draw` calls
+
+--
+
+Carful with keeping track of the value within a global variable.
+
+
 
 ---
 template:inverse
@@ -204,31 +377,28 @@ print('All done…');
 
 ```js
 // https://editor.p5js.org/legie/sketches/P9nGLtSJq
-// Loop Inside Draw
-
 ...
 
 function draw() {
 
     let counter = 0; // Iteration counter
-    
+
     while (counter < 30) { // Loop condition
     
-        ellipse(mouseX + random(30), mouseY + random(30), 2, 2);
+        ellipse(mouseX + random(100), mouseY + random(100), 10, 10);
         counter += 1; // Increase counter
     }
 }
-
-...
-
 ```
 
 What is exactly happening here? What is repeated when?
 
---
+---
+
+## `while`-Loop
 
 * The `draw()` function is called by default 60 times per second.
-    * For each `draw()` call, we execute the loop, hence we draw 30 ellipses 60 times per second.
+* For each `draw()` call, we execute the loop, hence we draw 30 ellipses 60 times per second.
 
 ???
 
@@ -239,36 +409,49 @@ What is exactly happening here? What is repeated when?
 * https://www.geeksforgeeks.org/find-if-a-point-lies-inside-or-on-circle/
 * https://stackoverflow.com/questions/481144/equation-for-testing-if-a-point-is-inside-a-circle
 
+---
+template:inverse
 
 ### Quick Detour
 
 ## Test If A Point Is Inside A Circle
 
+---
 
 ## Test If A Point Is Inside A Circle
 
-In an x–y Cartesian coordinate system, the circle with
+.left-even[<img src="../02_scripts/img/loops/circle_01.png" alt="circle_01" style="width:100%;">.imgref[[[wiki]](https://www.wikiwand.com/en/Circle)]]
 
-* centre coordinates $(centerX, centerY)$
+--
+
+.right-even[
+A circle with the
+
+* centre coordinates $(a, b)$
 * radius $r$
 
 is the set of all points $(x, y)$ such that
 
-$(x-centerX)^2 + (y-centerY)^2 = r^2$
+$(x-a)^2 + (y-b)^2 = r^2$
 
-.center[<img src="../02_scripts/img/loops/circle_01.png" alt="circle_01" style="width:40%;">[[wiki]](https://www.wikiwand.com/en/Circle)]
+]
+
+
+---
 
 
 ## Test If A Point Is Inside A Circle
 
 To test if a point is *inside* a circle we have to test for
 
+<br />
+
 $(x-centerX)^2 + (y-centerY)^2 <= r^2$
 
 --
 
 ```js
-//https://editor.p5js.org/legie/sketches/Ax-1Dp2Ga
+// https://editor.p5js.org/legie/sketches/q53DdC1ul
 
 if ((x - centerX) * (x - centerX) +
     (y - centerY) * (y - centerY) <= r * r) {
@@ -278,7 +461,9 @@ if ((x - centerX) * (x - centerX) +
 ```
 
 
-* https://editor.p5js.org/legie/sketches/Ax-1Dp2Ga
+???
+
+* https://editor.p5js.org/legie/sketches/q53DdC1ul
 
 
 ---
@@ -296,7 +481,7 @@ Otherwise you have created an **infinity loop** 🤬 ♾️
 ---
 template:inverse
 
-## Loop Logic
+# Loop Logic
 
 ---
 ## Loop Logic
@@ -335,7 +520,6 @@ The last two points can also happen in reversed order (hence, first check the te
 ```js
 let counter = 0;    // INITIALIZATION
 while (counter < 3) { // CONDITION
-
     // code
     counter += 1;   // STEP
 }
@@ -567,7 +751,9 @@ For every row {
     }
 }
 ```
---
+---
+
+## 2D Loops
 
 ```js
 // https://editor.p5js.org/legie/sketches/lpStDBNUC
@@ -575,6 +761,7 @@ For every row {
 
 // Nested loop to run through the grid
 for (let gridY = 0; gridY < numberRows; gridY++) {
+
     for (let gridX = 0; gridX < numberColumns; gridX++) {
 
         print("Row: " + gridY + " Column: " + gridX);
@@ -592,6 +779,7 @@ for (let gridY = 0; gridY < numberRows; gridY++) {
 
 // Nested loop to run through the grid
 for (let y = 0; y < numberRows; y++) {
+
     for (let x = 0; x < numberColumns; x++) {
 
         print("Row: " + y + " Column: " + x);
@@ -616,7 +804,7 @@ Now, we can, for example, draw a `rect` at each x,y coordinate within the 2D loo
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -650,7 +838,7 @@ function draw() {
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -691,7 +879,7 @@ function draw() {
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -733,7 +921,7 @@ function draw() {
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -773,7 +961,7 @@ function draw() {
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -799,7 +987,7 @@ function draw() {
         for (let x = 0; x < windowWidth; x += rectSize) {
 
             // My smiley
-            strokeWeight(2);
+            strokeWeight(1);
             fill(255, 180, 225);
 
             ellipse(x + rectSize * 0.5, y + rectSize * 0.5, rectSize);
@@ -825,7 +1013,7 @@ function draw() {
 
 ## A Grid
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 let rectSize = 50;
 
 function setup() {
@@ -903,6 +1091,7 @@ In order to have a simple 50-50 decision maker, you can use the following:
 let probability = 0.5;
 
 if (random(1) < probability) {
+
     //...
 }
 else {
@@ -941,7 +1130,7 @@ else { //all random numbers between 0.5..0.99
 
 ## The 10 PRINT Example
 
-<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="300" >
+<script type="text/p5" data-p5-version="1.6.0" data-autoplay data-height="450" data-preview-width="500" >
 //https://editor.p5js.org/legie/sketches/Gd7jHe9WZ
 
 let cellSize = 10;
@@ -986,196 +1175,13 @@ function draw() {
 </script>
 
 
----
-template:inverse
-
-## More Examples
-
-
 ???
-.task[COMMENT:]  
+* https://editor.p5js.org/legie/sketches/nrfQTzxMI
 
-* For a better understanding of the grid structure and also of operators, here a couple of examples.
-
----
-.header[2D Loops]
-
-### More Examples
-
-*How do you need to control the fill command to create the following examples?*
-
-.center[<img src="../02_scripts/img/loops/ch05_10.png" alt="ch05_10" style="width:50%;">]
-
----
-.header[2D Loops]
-
-### More Examples
-
-```js
-// https://editor.p5js.org/legie/sketches/lWJGIhhtI
-// Grid Examples
-
-function draw() {
-
-    // Nested loop to run over
-    // all pixels of the canvas
-    for (let y = 0; y < height; y+=stepSize) {
-        for (let x = 0; x < width; x+=stepSize) {
+* TODO: https://editor.p5js.org/legie/sketches/fYvij_ACr
+* 
 
 
-            fill(255);
-            // Changing the fill color
-            // only for the cells on the
-            // diagonal
-            if ( y == x) {
-                fill(0);
-            }
-
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
-
----
-.header[2D Loops]
-
-### More Examples
-
-.center[<img src="../02_scripts/img/loops/ch05_11.png" alt="ch05_11" style="width:50%;">]
-
----
-.header[2D Loops]
-
-### More Examples
-
-
-```js
-// https://editor.p5js.org/legie/sketches/5x1bAs66K
-// Grid Examples
-
-function draw() {
-
-    // Nested loop to run over
-    // all pixels of the canvas
-    for (let y = 0; y < height; y+=stepSize) {
-        for (let x = 0; x < width; x+=stepSize) {
-
-            stroke(0);
-            fill(255);
-
-            if (x > y) {
-                stroke(255);
-                fill(0);
-            }
-
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
-
----
-.header[2D Loops]
-
-### More Examples
-
-
-.center[<img src="../02_scripts/img/loops/ch05_12.png" alt="ch05_12" style="width:50%;">]
-
-
-???
-.task[COMMENT:]  
-
-* The overall logic to create a checkerboard is to fill every other cell black and to shift that every other row. 
-
-* You could also say that in the even rows (meaning the 0., 2., 4. row...), the even columns (meaning the 0., 2., 4. column...) should be black, and in the uneven rows, the uneven cells should be black.
-
-* You can identify even numbers with the modulo operator.
-
----
-template:inverse
-
-### The Modulo Operator
-
----
-.header[2D Loops]
-
-### The Modulo Operator
-
---
-
-The [modulo](https://www.computerhope.com/jargon/m/modulo.htm) operator returns for a division with a whole number the rest of that division:
-
-```js
-// Pseudo Code
-
-5 / 2 is 2 (the quotient) with rest 1
-7 / 5 is 1 with rest 2
-
-x / y is quotient q with rest r
-x = q * y + r
-```
-
---
-
-This comes in handy when testing for even numbers:
-
-```js
-let number = 7;
-
-if (number % 2 == 0) 
-{
-    print("even");
-}
-```
-
----
-.header[2D Loops]
-
-### More Examples
-
-In our example, we can not work directly with the pixel coordinates, as by adding an even `stepSize` for the grid, we only have even pixel coordinates, such as 0, 100, 200,... 
-
---
-
-We need to divide the coordinates by `stepSize` to get the indices of the cells, with which we then want to do the modulo operation. 
-
-
----
-.header[2D Loops | More Examples]
-
-```js
-// https://editor.p5js.org/legie/sketches/_NHk4arDR
-// Grid Examples
-
-function draw() {
-
-    // Nested loop to run over
-    // all pixels of the canvas
-    for (let y = 0; y < height; y += stepSize) {
-        for (let x = 0; x < width; x += stepSize) {
-
-            fill(255);
-
-            // We need to divide by stepSize
-            // to get the indices
-            let row = y / stepSize;
-            let column = x / stepSize;
-
-
-            if ((row % 2 == 0) && (column % 2 == 0)) {
-                fill(0);
-            } 
-            else if ((row % 2 != 0) && (column % 2 != 0)) {
-                fill(0);
-            }
-
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
 
 ---
 template:inverse
@@ -1195,7 +1201,8 @@ while(i < numberOfTimes)…
 for(int i = 0; i < numberOfTimes; i++)…
 ```
 
---
+---
+## Summary
 
 ### 2D Loop
 
@@ -1210,6 +1217,8 @@ for (let y = 0; y < numberRows; y++)
     }
 }
 ```
+
+--
 
 Use the [reference](https://p5js.org/reference/) 🚒
 
