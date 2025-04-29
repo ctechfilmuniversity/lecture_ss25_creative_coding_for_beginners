@@ -2,7 +2,7 @@
 layout: default
 title: Exercise 05
 parent: Exercises
-nav_order: 5
+nav_order: 4
 ---
 
 # Creative Coding For Beginners
@@ -12,11 +12,8 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
   
 # Exercise 04 - Loops
 
-This session is due on **Monday, June 19th**.  
+This session is due on **Monday, May 6th** before class.  
 
----
-
-**There is no class on June 13!**
 
 ---
 
