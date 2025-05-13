@@ -22,7 +22,8 @@ In this section you find all slides for the course.
 * [Slides 05 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
 * [Slides 06 - Variables](ccfb_ss25_06_variables_slides.html)
 * [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
-
+* [Slides 08 - Programming](ccfb_ss25_08_programming_slides.html) 
+* [Slides 09 - Images](ccfb_ss25_09_images_slides.html) 
 
 <!-- 
 * [Slides 09 - Programming](ccfb_ss25_09_programming_slides.html) 
@@ -37,6 +38,16 @@ Also see the script for each topic.
 
 ## Code Examples
 
+Week 5
+
+* [Images - Reading Pixel Data](https://editor.p5js.org/legie/sketches/H6uqSnexq)
+* [Images - Animated](https://editor.p5js.org/legie/sketches/NA8Sqzyis)
+* [Images - Resizing](https://editor.p5js.org/legie/sketches/SLLLmgMX_)
+* [Gird - Checkerboard](https://editor.p5js.org/legie/sketches/_NHk4arDR)
+* [Grid - Split Diagonal](https://editor.p5js.org/legie/sketches/5x1bAs66K)
+* [Grid - Diagonal](https://editor.p5js.org/legie/sketches/lWJGIhhtI)
+* [Loop Evolution](https://editor.p5js.org/legie/sketches/uO_y3MUZQ)
+
 
 Week 4
 
@@ -48,6 +59,7 @@ Week 4
 
 Week 3
 
+* [Circle Animation](https://editor.p5js.org/legie/sketches/dJcTRYKbC)
 * [Colored Line Animation](https://editor.p5js.org/legie/sketches/pA5Ddli51)
 * [Interactive Smiley](https://editor.p5js.org/legie/sketches/0lByVe-mH)
 

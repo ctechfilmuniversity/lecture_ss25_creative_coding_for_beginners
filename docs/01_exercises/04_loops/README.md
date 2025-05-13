@@ -12,7 +12,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
   
 # Exercise 04 - Loops
 
-This session is due on **Monday, May 6th** before class.  
+This session is due on **Tuesday, May 6th** before class.  
 
 
 ---
