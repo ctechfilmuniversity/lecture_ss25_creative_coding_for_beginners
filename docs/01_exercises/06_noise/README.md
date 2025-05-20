@@ -34,7 +34,7 @@ This session is due on **Tuesday, May 27th** before class.
 
 ### Task 06.02 - Implementing Noise
 
-Create a sketch that uses noise or features noise somehow. This can anything you want. You can use [p5's noise function](https://p5js.org/reference/p5/noise/). You can find inspiration from [OpenProcessing's noise examples](https://openprocessing.org/browse?time=anytime&type=hearts&q=noise&offset=0).
+Create a sketch that uses noise or features noise somehow. This can anything you want. You can use [p5's noise function](https://p5js.org/reference/p5/noise/). You can find inspiration from [OpenProcessing's noise examples](https://openprocessing.org/browse?time=anytime&type=hearts&q=noise&offset=0) (careful though, many of these examples are fairly advanced - you need to make use of what you have ;)).
 
 *Submission*: Add a link to your sketch in your OwnCloud file.
 
