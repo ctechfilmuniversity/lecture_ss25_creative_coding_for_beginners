@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Exercise 05
+title: Exercise 06
 parent: Exercises
-nav_order: 5
+nav_order: 6
 ---
 
 # Creative Coding For Beginners
