@@ -24,6 +24,9 @@ In this section you find all slides for the course.
 * [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
 * [Slides 08 - Programming](ccfb_ss25_08_programming_slides.html) 
 * [Slides 09 - Images](ccfb_ss25_09_images_slides.html) 
+* [Slides 10 - Arrays](./ccfb_ss25_10_arrays_slides.html) 
+
+  
 
 <!-- 
 * [Slides 09 - Programming](ccfb_ss25_09_programming_slides.html) 

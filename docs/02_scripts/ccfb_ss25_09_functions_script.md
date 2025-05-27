@@ -6,9 +6,9 @@ nav_order: 11
 ---
 
 
-# Script 11 - Functions
+# Script - Functions
 
-* [Script 11 - Functions](#script-11---functions)
+* [Script - Functions](#script---functions)
     * [Learning Objectives](#learning-objectives)
     * [Functions](#functions)
         * [Parameters](#parameters)
@@ -211,8 +211,8 @@ A reasonable use of functions, keeping `setup()` and `draw()` as tidy as possibl
 - Functions have a name, optional parameters and an optional return value.
 
 ```
-function addTen(float parameter1) 
-{
+function addTen(float parameter1) {
+
 	return (parameter1 + 10);
 }
 ```
