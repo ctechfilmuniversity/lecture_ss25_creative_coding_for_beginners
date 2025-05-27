@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Script 09 - Images
+title: Script 07 - Images
 parent: Scripts
-nav_order: 9
+nav_order: 7
 ---
 
 
-# Script 09 - Images
+# Script - Images
 
-* [Script 09 - Images](#script-09---images)
+* [Script - Images](#script---images)
     * [Learning Objectives](#learning-objectives)
     * [Images](#images)
     * [Loading and Displaying Images](#loading-and-displaying-images)

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Script 08 - Loops
+title: Script 07 - Loops
 parent: Scripts
-nav_order: 8
+nav_order: 7
 ---
 
 
