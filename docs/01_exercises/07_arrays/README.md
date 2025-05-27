@@ -36,7 +36,7 @@ Take the [animation of a circle code](https://editor.p5js.org/legie/sketches/JNJ
 ![confetti](img/confetti.gif)  
   
 
-Make further adjustments to give the example your own.
+Make further adjustments to make the example your own.
 
   
 Try to solve the exercise on your own first. If you don't know how to start, here two hints:
