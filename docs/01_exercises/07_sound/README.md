@@ -2,7 +2,7 @@
 layout: default
 title: Exercise 08
 parent: Exercises
-nav_order: 7
+nav_order: 8
 ---
 
 # Creative Coding For Beginners
