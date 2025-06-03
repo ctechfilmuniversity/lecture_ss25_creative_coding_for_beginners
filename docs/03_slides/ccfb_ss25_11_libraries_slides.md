@@ -19,6 +19,9 @@ layout:false
 ## Today
 
 --
+* Remaining Sessions
+
+--
 * Re-cap
     * Arrays
     * Homework
@@ -42,6 +45,18 @@ layout:false
 
 * https://editor.p5js.org/legie/sketches/2nuJGEvFr
 
+
+---
+
+## Remaining Sessions
+
+--
+
+* 10.06.
+* ~~17.06.~~ (Lena gone)
+* ~~24.06.~~ (Sommerfest)
+* ~~01.07.~~ (VFX gone)
+* ~~08.07.~~ (Lena gone)
 
 
 
