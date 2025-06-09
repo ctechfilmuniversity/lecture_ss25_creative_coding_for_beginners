@@ -27,8 +27,7 @@ In this section you find all slides for the course.
 * [Slides 10 - Arrays](./ccfb_ss25_10_arrays_slides.html) 
 * [Slides 11 - Libraries](./ccfb_ss25_11_libraries_slides.html)
 * [Slides 13 - The Jumping Game and Wrap Up](./ccfb_ss25_12_wrapup_slides.html)
-    * [Tutorial Jumping Game - Steps](./ccfb_ss25_tutorial_jumping_game.md)
-    * [Tutorial Jumping Game - Assets](./assets.zip)
+
   
 
 
@@ -38,8 +37,13 @@ Also see the script for each topic.
 
 ## Code Examples
 
+Week 9
   
-[*to be added*]  
+* [Tutorial Jumping Game - Steps](./ccfb_ss25_tutorial_jumping_game.md)
+* [Tutorial Jumping Game - Assets](./assets.zip)
+ 
+  
+[*Week 6-8 to be added*]  
   
 
 Week 5

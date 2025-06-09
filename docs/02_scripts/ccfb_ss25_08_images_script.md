@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Script 07 - Images
+title: Script 08 - Images
 parent: Scripts
-nav_order: 7
+nav_order: 8
 ---
 
 

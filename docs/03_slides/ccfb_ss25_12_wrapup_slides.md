@@ -131,13 +131,13 @@ template:inverse
 
 **Download**:
   
-Slides -> [Tutorial Jumping Game - Assets](./assets.zip)
+Code Examples -> Week 9 -> [Tutorial Jumping Game - Assets](./assets.zip)
 
 <br />
 
 
 **Open**:   
-Slides -> [Tutorial Jumping Game - Steps](./ccfb_ss25_tutorial_jumping_game.md)
+Code Examples -> Week 9 -> [Tutorial Jumping Game - Steps](./ccfb_ss25_tutorial_jumping_game.md)
 
 <br />
 
