@@ -26,7 +26,19 @@ This session is due on **Tuesday, September 30st** before class.
 
 ## Task 09.01 - Feedback
 
-Please add any feedback that you might have.
+Please answer the following questions briefly so that I can further improve the lecture for future students.
+
+* How would you rate the difficulty of this lecture from 1 (far too easy) to 5 (far too difficult)?
+* How would you rate the amount of work you had to put into this lecture so far from 1 (no work at all) to 5 (far too much work)?
+* Was is valuable for you to learn about programming? Please explain your answer.
+* What do you think about p5 as environment to learn programming?
+* Do you have any useful hints to pass on to future students, e.g. learning tips, utility tools, or further resources?
+* Do you feel like the exercises were helpful for your learning? Please explain your answer.
+* Did you enjoy working on the exercises? Please explain your answer.
+* Was there a topic missing and if so which one?
+* Please feel free to add any feedback you want to give!
+
+*Submission*: Answer in your OwnCloud file.  
 
 ## Task 09.02 - The Final Project
 
@@ -59,4 +71,4 @@ That's it. It was a pleasure!
 
 ---
 
-*Happy Finaling!*
+*Happy Finalizing!*

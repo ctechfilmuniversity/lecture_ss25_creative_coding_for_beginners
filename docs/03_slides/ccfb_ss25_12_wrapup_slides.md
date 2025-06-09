@@ -756,8 +756,11 @@ template:inverse
 --
 
 VFX
-* 4 SWS + 5 ECTS
-* Final Project: 
+
+* *Programmierkonzepte: Grundlagen der Programmierung*
+    * Modul 7 - Programmierung und Entwicklung
+    * 4 SWS + 5 ECTS
+* Final Project: ~4 days of work = 1 ECTS
 
 ---
 .header[Administration]
